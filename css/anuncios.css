@@ -1,0 +1,113 @@
+/*anuncios.html*/
+body{
+    background-color: rgb(25, 25, 74);
+    color: white;
+}
+.procura{
+    font-size: 30px;
+    padding: 25px;
+    padding-right: 0%;
+}
+.procura p{ 
+    float:right;
+    padding: 35px;
+    margin-top: 4%;
+    padding-left: 1.5%;
+    margin-right: 5%;
+}
+.procura img{
+    padding: 0%;
+    width: 220px;
+    right: 200px;
+    margin-left: 80px;
+}
+.contato{
+    font-size: 30px;
+    padding: 40px;
+} 
+@media(max-width: 1258px){
+    .procura p{ 
+        float: left;
+    }
+    .procura img{ 
+        position: relative;
+        left: 25%;
+    }
+}
+/*anuncios.html*/
+/* -------------------------------------------------- */
+/*parceria.html*/
+.parceria{
+    margin-left: 4%;
+}
+.parceria .parceriaX p{
+    float: left;
+    font-size: 150.5%;
+}
+.parceria .parceriaX #right{
+    float: right;
+}
+.parceria #parceria1 p{
+    margin-top: 7%;
+}
+.parceria #parceria1 img{
+    margin-top: 2%;
+    margin-left: 4%
+}
+.parceria #parceria2 p{ 
+    margin-top: 6%;
+    margin-right: 29%;
+}
+.parceria #parceria3 p{
+    margin-top: 4%;
+}
+.parceria #parceria3 img{
+    margin-left: 4%;
+}
+.parceria #parceria4 p{ 
+    margin-top: 6%;
+    margin-right: 21%;
+}
+@media(max-width: 1306px){
+    .parceria #parceria4 p{
+        font-size: 148%;
+        margin-right: 17%;
+    }
+}
+@media(max-width: 1201px){
+    .parceria .parceriaX p{
+        font-size: 130%;
+    }
+    .parceria #parceria4 p{
+        margin-right: 14%;
+    }
+} 
+@media(max-width: 1155px){
+    .parceria #parceria4 p{
+        margin-right: 10%
+    }
+} 
+@media(max-width: 1090px){
+    .parceria #parceria4 p{
+        margin-right: 6%
+    }
+} 
+@media(max-width: 1034px){
+    .parceria .parceriaX #right{
+        float: left;
+    }
+    .parceria .parceriaX p{
+        float:none;
+    }
+    .parceria .parceriaX img{
+        position: relative;
+        left: 30%
+    }
+    .parceria .parceriaX p{
+        font-size: 150%;
+    }
+} 
+
+
+
+
